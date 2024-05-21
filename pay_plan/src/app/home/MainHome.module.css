@@ -1,0 +1,36 @@
+.container {
+  width: 320px;
+  height: 568px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.titleText {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.battery {
+  display: flex;
+  padding: 20px 0;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 244px;
+  height: 293px;
+  border: 1px solid gray;
+  border-radius: 4%;
+}
+.goalText {
+  font-size: 15px;
+  color: black;
+}
