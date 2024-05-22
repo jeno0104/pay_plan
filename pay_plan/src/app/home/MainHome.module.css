@@ -3,11 +3,14 @@
   height: 568px;
   background-color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
-
+.home {
+  display: flex;
+  flex-direction: column;
+}
 .title {
   width: 100%;
   display: flex;
@@ -33,4 +36,10 @@
 .goalText {
   font-size: 15px;
   color: black;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 30px;
 }
